@@ -1,0 +1,6 @@
+modelo_entrenado/
+.checkpoints/
+__pycache__/
+.venv/
+*.zip
+.pytest_cache/

@@ -1,0 +1,11 @@
+# Ojo Avizor - dependencias (Python 3.10 a 3.13)
+# En un PC sin GPU, instala primero PyTorch para CPU (mucho más liviano):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch>=2.2
+transformers>=4.46,<5
+datasets>=3,<5
+accelerate>=1,<2
+gradio>=5.20,<6
+scikit-learn>=1.4
+pandas>=2
+pytest>=8
