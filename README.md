@@ -52,6 +52,9 @@ ataque», habla de señales y riesgo, cierra remitiendo al canal oficial, nunca 
 Si el modelo no está seguro (confianza < 45 %), pregunta en vez de adivinar: *«¿Me hablas de un correo
 sospechoso o de un enlace sospechoso?»*.
 
+📘 La explicación técnica completa (tipo de sistema, si es un agente o no, cómo funciona el Transformer
+por dentro, entrenamiento y evaluación) está en [`docs/ARQUITECTURA.md`](docs/ARQUITECTURA.md).
+
 ## Archivos
 
 | Archivo | Para qué sirve |
@@ -74,13 +77,31 @@ sospechoso o de un enlace sospechoso?»*.
 
 1. Abre [colab.research.google.com](https://colab.research.google.com) → **Subir** → `Ojo_Avizor_Colab.ipynb`.
 2. (Opcional, más rápido) *Entorno de ejecución → Cambiar tipo de entorno → GPU T4*.
-3. Ejecuta las celdas en orden. En la primera, sube `ojo_avizor.zip`.
+3. Ejecuta las celdas en orden. En la primera, sube un `.zip` con la carpeta del proyecto
+   (por ejemplo, comprime la carpeta `ojo-avizor` que clonaste).
 4. La celda final imprime un enlace `https://xxxx.gradio.live`: ábrelo (funciona hasta en el celular).
 
 ## Opción B: en tu computador (Windows, macOS o Linux, sin GPU)
 
 Necesitas **Python 3.10 a 3.13** ([python.org](https://www.python.org/downloads/); en Windows marca
-*Add Python to PATH*). Descomprime `ojo_avizor.zip`, abre una terminal **dentro de la carpeta** y ejecuta:
+*Add Python to PATH*) y **git**.
+
+**0. Obtener el código** (elige una forma):
+
+Desde el archivo `ojo-avizor.bundle` (trae todo el historial de commits):
+```bash
+git clone ojo-avizor.bundle ojo-avizor
+```
+
+Desde GitHub, si ya está publicado allí:
+```bash
+git clone https://github.com/SneatX/ojo-avizor.git
+```
+
+Luego entra a la carpeta (los siguientes comandos se ejecutan dentro de ella):
+```bash
+cd ojo-avizor
+```
 
 **1. Crear un entorno virtual**
 
@@ -165,8 +186,9 @@ Se midió con **frases escritas de otra forma** (informales, sin tildes, con err
    distintas* → `python entrenar.py` → evaluar de nuevo.
 3. **Escribir un conjunto de prueba nuevo antes de cada mejora** (como la prueba 3). Si corrigen mirando
    las mismas frases con las que miden, el resultado se infla.
-4. **Probar un modelo en español:** `OJO_MODELO_BASE=dccuchile/bert-base-spanish-wwm-uncased python entrenar.py`
-   (BETO, entrenado solo en español). Comparen con `evaluar.py`.
+4. **Probar un modelo en español** (BETO, entrenado solo en español) y comparar con `evaluar.py`.
+   En macOS/Linux: `OJO_MODELO_BASE=dccuchile/bert-base-spanish-wwm-uncased python entrenar.py`.
+   En Windows (PowerShell): `$env:OJO_MODELO_BASE="dccuchile/bert-base-spanish-wwm-uncased"; python entrenar.py`.
 5. **Revisar `config.py`** con el dominio y los canales reales de soporte de la universidad.
 
 ## Probar las reglas
