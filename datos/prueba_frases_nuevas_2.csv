@@ -1,0 +1,46 @@
+texto,intencion
+holi ojo avizor,saludo
+"oye, me puedes ayudar con algo?",saludo
+buenas noches bot,saludo
+dale gracias crack,despedida
+ok perfecto ya me quedo claro,despedida
+"listo, nos hablamos",despedida
+cual es la formula de la velocidad,fuera_de_tema
+que dia es el parcial de fisica,fuera_de_tema
+recomiendame un restaurante,fuera_de_tema
+"si, le di",afirmacion
+"si, ya fue",afirmacion
+"sí, lo hice sin pensar",afirmacion
+"no, ahi esta sin abrir",negacion
+"nada, no he respondido",negacion
+"no, ni lo he mirado bien",negacion
+llego un correo de admisiones raro pidiendo pagar ya,correo_sospechoso
+"me dicen por correo que mi clave expira hoy, sera real?",correo_sospechoso
+correo con asunto URGENTE verificacion de cuenta institucional,correo_sospechoso
+me mandaron un link de una tienda con todo al 90% de descuento,enlace_sospechoso
+"pasaron esto por el grupo: http://cutt.ly/beca2026, lo abro?",enlace_sospechoso
+un mensaje con link para actualizar mi cuenta de netflix,enlace_sospechoso
+"me escribe alguien que dice ser mi papa desde otro celular, pide consignar",suplantacion_mensaje
+un tipo dice ser de soporte de whatsapp y pide el codigo que me llego,suplantacion_mensaje
+me llamaron del supuesto banco pidiendo confirmar mi clave,suplantacion_mensaje
+el portatil se reinicia solo desde que instale un crack,archivo_malware
+"abri un .rar del correo y ahora salen cosas raras",archivo_malware
+creo que me entro un virus al celular,archivo_malware
+alguien cambio la contrasena de mi instagram,acceso_no_autorizado
+me llego un correo de google diciendo que iniciaron sesion desde un pc nuevo,acceso_no_autorizado
+mi cuenta del aula aparece con actividad que no hice,acceso_no_autorizado
+que tan larga debe ser una contrasena,prevencion
+como protejo mi correo institucional,prevencion
+"donde reporto una estafa, por si acaso",prevencion
+"meti mi usuario y clave en esa pagina, que hago",cai_credenciales
+le di toda mi info personal al del formulario,cai_credenciales
+"puse la clave del correo en el enlace del mensaje, ayuda",cai_credenciales
+le gire 50 mil al que decia ser mi tio,cai_dinero
+ya hice la consignacion que me pidieron,cai_dinero
+pague por una pagina falsa,cai_dinero
+le pase el codigo de 6 numeros al que dijo ser de soporte,cai_codigo
+le reenvie el sms con el codigo,cai_codigo
+le comparti la clave dinamica de bancolombia,cai_codigo
+"entre a la pagina, pero no escribi ni descargue nada",abri_sin_datos
+"lo abri por error, nada mas",abri_sin_datos
+"di clic pero me sali al toque",abri_sin_datos

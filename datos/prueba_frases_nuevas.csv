@@ -1,0 +1,76 @@
+texto,intencion
+"buenass, alguien ahi?",saludo
+holaa necesito una mano,saludo
+q onda,saludo
+"buenas profe, una pregunta",saludo
+hola que tal todo,saludo
+y tu que haces?,saludo
+listo muchas grax,despedida
+ya entendi todo gracias,despedida
+"bueno, chao",despedida
+super amable gracias,despedida
+gracias me sirvio mucho,despedida
+cuanto cuesta un dolar hoy,fuera_de_tema
+me ayudas con un ensayo de historia,fuera_de_tema
+que pelicula me recomiendas para hoy,fuera_de_tema
+cual es el horario de la biblioteca,fuera_de_tema
+como hago una tabla dinamica en excel,fuera_de_tema
+"si, ya lo hice todo",afirmacion
+pues si la verdad,afirmacion
+sii,afirmacion
+"si, desgraciadamente",afirmacion
+efectivamente,afirmacion
+no he hecho nada todavia,negacion
+"nada, no lo abri",negacion
+no no,negacion
+"no, lo deje quieto",negacion
+"ni lo abri, primero te pregunto",negacion
+me llego un correo de la udes medio raro pidiendo actualizar datos,correo_sospechoso
+"en mi correo hay un mensaje que dice que mi cuenta vence hoy",correo_sospechoso
+recibi un mail urgente de soporte tecnico,correo_sospechoso
+me llego al outlook un correo de cobro de matricula sospechoso,correo_sospechoso
+un correo dice que debo verificar mi cuenta o la bloquean,correo_sospechoso
+el remitente del correo es soporte-udes@gmail.com,correo_sospechoso
+me pasaron este link http://bit.ly/premio123 sera confiable,enlace_sospechoso
+alguien mando un enlace raro al grupo del curso,enlace_sospechoso
+esta pagina parece la del banco pero no se,enlace_sospechoso
+me salio un link para reclamar un subsidio,enlace_sospechoso
+un mensaje de texto trae un enlace de una entrega pendiente,enlace_sospechoso
+un numero que no tengo dice que es mi hermano y que le preste plata,suplantacion_mensaje
+me escribe alguien diciendo ser de bancolombia y pide mi clave,suplantacion_mensaje
+me pidieron un codigo que me llego al celular,suplantacion_mensaje
+una persona con la foto de mi profe me pide una consignacion,suplantacion_mensaje
+dice que perdio el celular y necesita que le mande plata urgente,suplantacion_mensaje
+mi pc tiene un virus creo,archivo_malware
+abri un archivo y ahora todo va lento,archivo_malware
+se me instalo una cosa rara en el celular,archivo_malware
+me cifraron los documentos y piden bitcoins,archivo_malware
+descargue un programa pirata y el antivirus grita,archivo_malware
+alguien entro a mi correo,acceso_no_autorizado
+me hackearon la cuenta de facebook,acceso_no_autorizado
+me llegan avisos de inicios de sesion desde otro pais,acceso_no_autorizado
+mi whatsapp se abrio en otro telefono,acceso_no_autorizado
+mis contactos reciben mensajes que yo no envie,acceso_no_autorizado
+como hago una clave fuerte,prevencion
+que es la doble autenticacion,prevencion
+como evito que me estafen por whatsapp,prevencion
+que es el phishing y como se evita,prevencion
+deberia usar un administrador de contrasenas,prevencion
+"puse mi correo y clave en el link, la embarre",cai_credenciales
+ya le di todos mis datos a esa pagina,cai_credenciales
+me robaron los datos de la tarjeta en esa pagina,cai_credenciales
+"escribi la contrasena del correo institucional, y ahora?",cai_credenciales
+llene el formulario completo con mi informacion,cai_credenciales
+le mande 100 mil por nequi,cai_dinero
+ya consigne la plata que me pidio,cai_dinero
+transferi el dinero y ya no contesta,cai_dinero
+pague el supuesto envio,cai_dinero
+le hice el giro,cai_dinero
+le di el codigo que me llego,cai_codigo
+le pase los 6 numeros del sms,cai_codigo
+comparti el codigo y me cerraron whatsapp,cai_codigo
+le dicte la clave dinamica,cai_codigo
+le di click pero no puse nada,abri_sin_datos
+"lo abri, pero lo cerre rapido",abri_sin_datos
+entre al link pero no llene nada,abri_sin_datos
+solo le di clic una vez y ya,abri_sin_datos

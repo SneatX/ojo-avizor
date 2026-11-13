@@ -1,0 +1,46 @@
+texto,intencion
+epa buenas,saludo
+"hola, hay alguien que me oriente?",saludo
+saludos cordiales,saludo
+"vale, mil gracias por todo",despedida
+chao chao,despedida
+me sirvio full gracias,despedida
+como calculo el area de un circulo,fuera_de_tema
+que hora es en madrid,fuera_de_tema
+quiero saber las fechas de grados,fuera_de_tema
+"si, ya meti la pata",afirmacion
+"si, ayer",afirmacion
+"si, lo hice antes de preguntarte",afirmacion
+"no, no le he dado",negacion
+"tranquilo, no hice nada",negacion
+"no, apenas lo vi te escribi",negacion
+me llego un correo diciendo que debo pagar un paz y salvo con un enlace,correo_sospechoso
+un mail de la decanatura me pide mi numero de cedula y clave,correo_sospechoso
+"me llego un correo que dice que reciba un reembolso, se ve feo",correo_sospechoso
+alguien publico en facebook un link de empleo con muy buen sueldo,enlace_sospechoso
+me llego por telegram un link para invertir en cripto,enlace_sospechoso
+"este link es confiable? www.udes-pagos.com",enlace_sospechoso
+me escribio un supuesto asesor de nequi pidiendo mi clave,suplantacion_mensaje
+"alguien dice que es mi amiga, que se le daño el cel y pide prestado",suplantacion_mensaje
+me llamaron diciendo que soy sospechoso de un delito y que pague,suplantacion_mensaje
+el antivirus dice que hay un troyano,archivo_malware
+desde que conecte una usb el pc hace cosas raras,archivo_malware
+mis fotos ahora tienen una extension rara y no abren,archivo_malware
+no puedo entrar a mi facebook y el correo de recuperacion cambio,acceso_no_autorizado
+salen correos enviados que yo no escribi,acceso_no_autorizado
+me dicen que mi tiktok esta publicando cosas raras,acceso_no_autorizado
+que es una estafa de suplantacion de identidad,prevencion
+como evito que hackeen mi celular,prevencion
+que hago para que no me roben el whatsapp,prevencion
+ingrese mis datos en un formulario falso,cai_credenciales
+"le di mi clave a uno que dijo ser de soporte, me equivoque",cai_credenciales
+llene mis datos de la tarjeta en el link del sms,cai_credenciales
+le consigne a una cuenta que me dieron por chat,cai_dinero
+me cobraron y la tienda desaparecio,cai_dinero
+le envie dinero a un falso familiar,cai_dinero
+le dicte el codigo que llego a mi telefono,cai_codigo
+"le di el pin de verificacion, que bruto",cai_codigo
+le pase el codigo del correo de recuperacion,cai_codigo
+"solo entre a ver, no escribi nada",abri_sin_datos
+"lo abri un segundo y lo cerre, no puse nada",abri_sin_datos
+"lo toque sin querer pero no hice nada mas",abri_sin_datos
